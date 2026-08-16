@@ -11,7 +11,7 @@ using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
 
     [HarmonyPatch(typeof(MagnumSelectItemToProduceWindow), nameof(MagnumSelectItemToProduceWindow.ReceiptPanelOnStartProduction))]
@@ -38,7 +38,18 @@ namespace CapProductionTime
                     break;
                 }
             }
-            bool flag = num > 1;
+            
+            //ok now we need to logic.
+            bool flag = true;
+
+            if ((compositeItemRecord.PrimaryRecord is BreakableItemRecord breakable) || (compositeItemRecord.PrimaryRecord is ImplantRecord implant))
+            {
+                //Plugin.Logger.Log("whatever" + compositeItemRecord.PrimaryRecord);
+                flag = false;
+            }
+
+
+
             bool flag2 = maxCraft == int.MaxValue;
             if (flag)
             {

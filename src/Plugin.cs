@@ -9,7 +9,7 @@ using HarmonyLib;
 using MGSC;
 using UnityEngine;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     
 

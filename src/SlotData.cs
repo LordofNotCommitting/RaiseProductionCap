@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using SimpleJSON;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     // Token: 0x0200000D RID: 13
     public class SlotData

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     // Token: 0x0200000C RID: 12
     public class ModSave

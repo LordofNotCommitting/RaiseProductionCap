@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     // Token: 0x0200000F RID: 15
     public enum ValType

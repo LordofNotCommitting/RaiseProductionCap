@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     // Token: 0x02000006 RID: 6
     public class ModConfigGeneral
@@ -15,7 +15,7 @@ namespace CapProductionTime
             this.ModName = ModName;
             this.ModData = new ModConfigData(ConfigPath);
             this.ModData.AddConfigHeader("STRING:General Settings", "general");
-            this.ModData.AddConfigValue("general", "Prod_Cap_Multiplier", 10, 1, 20, "STRING:Prod Stack Cap Multiplier", "STRING:Set the multiplier on max cap of a stack on Magnum production window.");
+            this.ModData.AddConfigValue("general", "Prod_Cap_Multiplier", 10, 1, 100, "STRING:Prod Stack Cap Multiplier", "STRING:Set the multiplier on max cap of a stack on Magnum production window.");
             this.ModData.AddConfigValue("general", "about2", "STRING:<color=#f51b1b>The game must be restarted after setting then saving this config to take effect.</color>\n");
             this.ModData.RegisterModConfigData(ModName);
         }

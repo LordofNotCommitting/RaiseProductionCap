@@ -1,7 +1,7 @@
 ﻿using System;
 using SimpleJSON;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     // Token: 0x0200000E RID: 14
     public class SlotEntry

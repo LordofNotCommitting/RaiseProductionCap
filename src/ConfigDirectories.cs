@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     public class ConfigDirectories
     {

@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using UnityEngine;
 
-namespace CapProductionTime
+namespace RaiseProductionCap
 {
     public class ModConfig
     {
