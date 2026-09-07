@@ -26,7 +26,7 @@ namespace RaiseProductionCap
                 return true;
             }
             __instance._receiptToProduce = panel.Receipt;
-            int maxCraft = ItemProductionSystem.GetAvailableToProduceCount<ItemStorage>(__instance._magnumCargo.ShipCargo, __instance._receiptToProduce.RequiredItems);
+            int maxCraft = ItemProductionSystem.GetAvailableToProduceCount<ItemStorage>(__instance._magnumCargo.ShipCargo, __instance._receiptToProduce.RequiredItems, true);
             int num = 1;
             CompositeItemRecord compositeItemRecord = Data.Items.GetRecord(__instance._receiptToProduce.OutputItem, true) as CompositeItemRecord;
             foreach (BasePickupItemRecord basePickupItemRecord in compositeItemRecord.Records)
