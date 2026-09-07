@@ -6,6 +6,10 @@ Multiplier editable on MCM.
 
 Changelog:
 
+v1.02:
+
+This mod broke with patch 1.04. Fixed.
+
 v1.01:
 
 It has come to my attention that you could not mass produce turrets. or those covers.
