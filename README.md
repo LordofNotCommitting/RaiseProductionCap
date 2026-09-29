@@ -6,6 +6,10 @@ Multiplier editable on MCM.
 
 Changelog:
 
+v1.03:
+
+Forgot to make this work with recycler. now it does.
+
 v1.02:
 
 This mod broke with patch 1.04. Fixed.
